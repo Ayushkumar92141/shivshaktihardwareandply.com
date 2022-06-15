@@ -15,9 +15,16 @@ header h1 {
     font-style: italic;
 }
 
+
 header {
     padding: 40px;
     background-image: url(https://thumbs.dreamstime.com/b/aisle-home-depot-hardware-store-largest-american-improvement-retailer-more-than-million-40539047.jpg);
+}
+.backimg{
+    background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v546batch3-mynt-31-badgewatercolor_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=e1ee6e84fa2c584170bab2733ea5a1b0);
+}
+.bio{
+   background-color: lightblue;
 }
 
 nav {
@@ -32,10 +39,14 @@ nav a {
     float: left;
     color: white;
 }
+nav a:hover{
+    background: skyblue;
+    color: black;
+}
 .container{
     width: 100%;
     height: 100vh;
-    background: brown;
+    background-image: url(https://media.istockphoto.com/photos/forest-wooden-table-background-summer-sunny-meadow-with-green-grass-picture-id1353553203?b=1&k=20&m=1353553203&s=170667a&w=0&h=QTyTGI9tWQluIlkmwW0s7Q4z7R_IT8egpzzHjW3cSas=);
     display: flex;
     align-items: center;
     justify-content: center;
